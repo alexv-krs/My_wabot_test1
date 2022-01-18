@@ -7,8 +7,8 @@ class Wabot():
         'X-Tasktest-Token': 'f62cdf1e83bc324ba23aee3b113c6249'
     }
     params = {}
-    files = []
-    payload = []
+    files = {}
+    payload = {}
     URL = 'https://dev.wapp.im/v3/'
     NEW_CHAT = 'chat/spare?crm=TEST&domain=test'
 
