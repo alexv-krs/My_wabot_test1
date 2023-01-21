@@ -26,7 +26,7 @@ class Wabot():
     def get_url(self, method):
         return f'{self.URL}instance{self.id}/{method}?token={self.token}'
 
-    # полчуение нового чата
+    # получение нового чата
     def new_chat(self):
         url = f'{self.URL}{self.NEW_CHAT}'
         response = requests.get(url, headers=self.headers)
